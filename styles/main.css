@@ -26,7 +26,8 @@ h2 {
 header, main, footer {
     margin: 1.25rem auto;
     padding: 1rem;
-    max-width: /* xxxpx (px = pixel is a unit of measure)  */;
+    max-width: 50rem;
+    border-radius: 10px;
 }
 
 header, footer, footer a {
