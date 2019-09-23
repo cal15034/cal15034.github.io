@@ -4,6 +4,8 @@
 /* * is a wildcard referring to all elements. */
 * { margin: 0; box-sizing: border-box; }
 
+/* ---BODY--- */
+
 body {
     font-size: 16px;
     line-height: 32px;
@@ -37,13 +39,12 @@ header, footer, footer a {
 }
 
 header img {
-    width: /*  */;
     height: auto;
     float: right;
 }
 
 footer {
-    font-size: .75em;
+    font-size: 1em;
 }
 
 #timeUpdate {
