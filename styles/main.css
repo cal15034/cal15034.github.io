@@ -1,4 +1,7 @@
-* { margin: 0; box-sizing: border-box; }
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
 
 /* ---BODY--- */
 
@@ -21,14 +24,18 @@ h2 {
     border-bottom: 1px solid #bbb;
 }
 
-header, main, footer {
+header,
+main,
+footer {
     margin: 1.25rem auto;
     padding: 1rem;
     max-width: 50rem;
     border-radius: 10px;
 }
 
-header, footer, footer a {
+header,
+footer,
+footer a {
     text-align: center;
     background-color: #36454f;
     color: whitesmoke;
