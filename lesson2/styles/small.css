@@ -1,0 +1,92 @@
+/* ---------- BODY ---------- */
+
+body {
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+}
+
+
+/* ---------- HEADER ---------- */
+
+h1 {
+    padding: 50px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background: #32C8D9;
+    font-size: 50px;
+}
+
+/* ---------- NAV ---------- */
+
+/* ---------- MAIN ---------- */
+
+/* ---------- SECTION ---------- */
+
+section {
+    padding: 50px;
+}
+
+.evenSections {
+    background: #144659;
+    color: white;
+}
+
+li {
+    line-height: 30px;
+    padding: 5px;
+}
+
+/* ODD Links */
+
+a:link, a:visited {
+    background: black;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.hover {
+    background: #144659;
+    color: white;
+}
+}
+
+/* End of ODD Links */
+
+/* EVEN Links */
+
+a.evenLinks:link, a.evenLinks:visited {
+    background: #1F788C;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.evenLinks:hover {
+    background: #144659;
+    color: white;
+}
+
+.evenLinksList {
+    line-height: 50px;
+}
+
+/* End of EVEN Links */
+
+img {
+    width: 30%;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+/* ---------- FOOTER ---------- */
+
+/* ---------- MISC ---------- */
