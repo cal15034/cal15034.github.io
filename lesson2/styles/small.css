@@ -40,7 +40,7 @@ li {
 
 /* ODD Links */
 
-a:link, a:visited {
+a.oddLinks:link, a.oddLinks:visited {
     background: black;
     color: white;
     padding: 15px 25px;
@@ -49,9 +49,9 @@ a:link, a:visited {
     display: inline-block;
 }
 
-a.hover {
-    background: #144659;
-    color: white;
+a.oddLinks:hover {
+    background: white;
+    color: black;
 }
 
 /* End of ODD Links */
@@ -88,4 +88,14 @@ h2 {
 }
 /* ---------- FOOTER ---------- */
 
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #144659;
+    color: white;
+}
+
+a.footerLink:link, a.footerLink:visited, a.footerLink:hover, a.footerLink:active {
+    color: white;
+}
 /* ---------- MISC ---------- */
