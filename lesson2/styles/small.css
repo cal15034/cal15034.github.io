@@ -1,5 +1,108 @@
-@media only screen and (min-width: 414px) {
+    /* ---------- BODY ---------- */
+    
+    body {
+        font-size: 12px;
+        line-height: 30px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: black;
+    }
+    
+    
+    /* ---------- HEADER ---------- */
+    
+    h1 {
+        padding: 50px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        background: #32C8D9;
+        font-size: 15px;
+    }
+    
+    /* ---------- NAV ---------- */
+    
+    /* ---------- MAIN ---------- */
+    
+    /* ---------------------------- SECTION -------------------------------- */
+    
+    section {
+        padding: 10px;
+    }
+    
+    .evenSections {
+        background: #144659;
+        color: white;
+    }
+    
+    li {
+        line-height: 30px;
+        padding: 5px;
+    }
+    
     img {
         width: 25%;
     }
-}
+    
+    h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+    }
+    
+    /* ODD Links */
+    
+    a.oddLinks:link,
+    a.oddLinks:visited {
+        background: black;
+        color: white;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    a.oddLinks:hover {
+        background: white;
+        color: black;
+    }
+    
+    /* End of ODD Links */
+    
+    /* EVEN Links */
+    
+    a.evenLinks:link,
+    a.evenLinks:visited {
+        background: #1F788C;
+        color: white;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    a.evenLinks:hover {
+        background: #144659;
+        color: white;
+    }
+    
+    .evenLinksList {
+        line-height: 50px;
+    }
+    
+    /* End of EVEN Links */
+    
+    /* -------------------------------- FOOTER ----------------------------- */
+    
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #144659;
+        color: white;
+    }
+    
+    a.footerLink:link,
+    a.footerLink:visited,
+    a.footerLink:hover,
+    a.footerLink:active {
+        color: white;
+    }
+    
+    /* ---------- MISC ---------- */

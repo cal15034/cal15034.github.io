@@ -1,5 +1,62 @@
-@media only screen and (min-width: 768px) {
-    img {
-        width: 25%;
+@media only screen and (min-width: 700px) {
+
+    body {
+        font-size: 16px;
+        line-height: 30px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: black;
     }
+
+    h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 25px;
+    }
+
+    h1 {
+        padding: 50px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        background: #32C8D9;
+        font-size: 40px;
+    }
+
+    a.oddLinks:link,
+    a.oddLinks:visited {
+        background: black;
+        color: white;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    a.oddLinks:hover {
+        background: white;
+        color: black;
+    }
+    
+    /* End of ODD Links */
+    
+    /* EVEN Links */
+    
+    a.evenLinks:link,
+    a.evenLinks:visited {
+        background: #1F788C;
+        color: white;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    a.evenLinks:hover {
+        background: #144659;
+        color: white;
+    }
+    
+    .evenLinksList {
+        line-height: 50px;
+    }
+    
+    /* End of EVEN Links */
 }
