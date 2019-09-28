@@ -22,7 +22,7 @@ h1 {
 
 /* ---------- MAIN ---------- */
 
-/* ---------- SECTION ---------- */
+/* ---------------------------- SECTION -------------------------------- */
 
 section {
     padding: 50px;
@@ -36,6 +36,15 @@ section {
 li {
     line-height: 30px;
     padding: 5px;
+}
+
+img {
+    width: 25%;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
 }
 
 /* ODD Links */
@@ -78,15 +87,7 @@ a.evenLinks:hover {
 
 /* End of EVEN Links */
 
-img {
-    width: 30%;
-}
-
-h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
-}
-/* ---------- FOOTER ---------- */
+/* -------------------------------- FOOTER ----------------------------- */
 
 footer {
     text-align: center;
