@@ -1,10 +1,14 @@
 @media only screen and (min-width: 1080px) {
     h1 {
-        padding: 50px;
+        padding: 75px;
         text-align: center;
         font-family: 'Montserrat', sans-serif;
         background: #32C8D9;
         font-size: 70px;
+    }
+
+    section {
+        padding: 125px;
     }
 
 }
