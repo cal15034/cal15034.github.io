@@ -1,0 +1,113 @@
+/*---------- BODY   ---------- */
+
+h2 {
+    font-family: 'Lora', 'serif';
+}
+
+b {
+    font-family: 'Lora', 'serif';
+}
+body {
+    font-family: 'Source Sans Pro', 'san-serif';
+    display: grid;
+}
+
+ul {
+    list-style: none;
+}
+
+/*---------- HEADER   ---------- */
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+#headerLogo {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+} 
+
+
+
+/*---------- NAV  ---------- */
+
+.menuLinks {
+    font-size: 12px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: 'Lora', 'serif';
+    background: #2A4359;
+    text-align: center;
+    padding: 25px;
+    }
+    
+    li a{
+        text-decoration: none;
+        color: white;
+    }
+a.menuLinks:visited {
+    color: white;
+}    
+
+/*---------- MAIN  ---------- */
+
+main {
+    margin: 0;
+}
+
+#heroimg {
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: grayscale(5%);
+}
+
+#mainpageparagraph {
+    text-align: center;
+    font-size: 9px;
+    position: absolute;
+    color: white;
+    top: 25%;
+    padding: 25px;
+}
+
+#mainpagelogo {
+    width: 50px;
+    position: absolute;
+    top: 20%;
+    left: 43%;
+}
+
+/*---------- SECTIONS   ---------- */
+
+section {
+display: flex;
+justify-content: center;
+flex-direction: column;
+padding-left: 25px;
+padding-right: 25px;
+}
+
+#colorpalette {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+/*---------- ARTICLES   ---------- */
+
+/*---------- FOOTER  ---------- */
+
+footer {
+    display: none;
+}
+
+/*---------- ETC  ---------- */

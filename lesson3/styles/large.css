@@ -1,0 +1,80 @@
+@media only screen and (min-width: 1024px) {
+
+/*---------- BODY   ---------- */
+
+/*---------- HEADER   ---------- */
+
+/*---------- NAV  ---------- */
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: 'Lora', 'serif';
+    background: #2A4359;
+    text-align: center;
+    padding: 25px;
+    }
+    
+    li a{
+        text-decoration: none;
+        color: white;
+    }
+a.menuLinks:visited {
+    color: white;
+}    
+
+a.menuLinks:hover {
+    background: #49736F;
+    padding: 24px;
+    text-align: center;
+}
+
+
+/*---------- MAIN  ---------- */
+
+main {
+    margin: 0;
+}
+
+#heroimg {
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: grayscale(5%);
+}
+
+#mainpageparagraph {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    top: 35%;
+}
+
+#mainpagelogo {
+    width: 200px;
+    top: 20%;
+    left: 43%;
+}
+
+
+/*---------- SECTIONS   ---------- */
+
+/*---------- ARTICLES   ---------- */
+
+/*---------- FOOTER  ---------- */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2A4359;
+    color: white;
+    bottom: 0;
+    width: 100%;
+}
+
+/*---------- ETC  ---------- */
+
+}
