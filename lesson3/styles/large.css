@@ -6,6 +6,10 @@
 
 /*---------- NAV  ---------- */
 
+.menuLinks {
+    font-size: 25px;
+}
+
 #menu {
     display: flex;
     flex-direction: row;
@@ -50,7 +54,7 @@ main {
     text-align: center;
     font-size: 20px;
     color: white;
-    top: 35%;
+    top: 50%;
 }
 
 #mainpagelogo {
