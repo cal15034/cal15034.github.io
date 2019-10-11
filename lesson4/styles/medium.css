@@ -1,0 +1,37 @@
+@media only screen and (min-width: 700px) {
+
+/*---------- BODY   ---------- */
+
+/*---------- HEADER   ---------- */
+
+/*---------- NAV  ---------- */
+
+#menu {
+    padding: 25px;
+}
+
+a.menuLinks:hover {
+    background: #568C63;
+    padding: 12px;
+    padding: 25px;
+}    
+
+/*---------- MAIN  ---------- */
+
+/*---------- SECTIONS   ---------- */
+
+/*---------- ARTICLES   ---------- */
+
+/*---------- FOOTER  ---------- */
+
+footer {
+	margin: 0 auto;
+	max-width: 760px;
+    background-color: #2A4359;
+    font-family: 'Source Sans Pro', 'sans-serif';
+}
+
+
+/*---------- ETC  ---------- */
+
+}
