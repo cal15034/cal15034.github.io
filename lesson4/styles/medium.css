@@ -6,15 +6,11 @@
 
 /*---------- NAV  ---------- */
 
-#menu {
-    padding: 25px;
+nav {
+	margin: 0 auto;
+    background-color: #2A4359;
+    font-family: 'Source Sans Pro', 'sans-serif';
 }
-
-a.menuLinks:hover {
-    background: #568C63;
-    padding: 12px;
-    padding: 25px;
-}    
 
 /*---------- MAIN  ---------- */
 
@@ -25,8 +21,7 @@ a.menuLinks:hover {
 /*---------- FOOTER  ---------- */
 
 footer {
-	margin: 0 auto;
-	max-width: 760px;
+
     background-color: #2A4359;
     font-family: 'Source Sans Pro', 'sans-serif';
 }

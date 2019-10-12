@@ -5,6 +5,7 @@
 header {
     display: flex;
     justify-content: center;
+    align-items: center;
     font-family: 'Source Sans Pro', 'sans-serif';
 }
 
@@ -71,7 +72,6 @@ footer {
 
 nav {
 	margin: 0 auto;
-	max-width: 760px;
     background-color: #2A4359;
     font-family: 'Source Sans Pro', 'sans-serif';
 }
