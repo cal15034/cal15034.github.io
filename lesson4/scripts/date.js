@@ -1,32 +1,91 @@
 var currentDate = new Date();
-var outputDate;
+
+var currentDateString;
+
+
+
+// get day of week
+
+var weekDayNumber = currentDate.getDay();
+
+
 
 var daysOfWeek = [
-    'Sunday',
-    'Monday', 
-    'Tuesday',
-    'Wednesday',
-    'Thursday',
-    'Friday',
-    'Saturday'
+
+'Sunday',
+
+'Monday',
+
+'Tuesday',
+
+'Wednesday',
+
+'Thursday',
+
+'Friday',
+
+'Saturday'
+
 ];
 
-var dayOfWeekNumber = currentDate.getDay();
-
-outputDate = daysOfWeek[dayOfWeekNumber] + ', ';
-
-outputDate += currentDate.getDate();
-
-//TODO: get month string
 
 
-//TODO: get full year
-
-document.getElementById("currentDate").innerHTML = outputDate;
+var weekDay = daysOfWeek[weekDayNumber];
 
 
 
+currentDateString = weekDay + ', ';
 
-console.log(currentDate);
-console.log(dayOfWeekNumber);
-console.log(outputDate);
+
+
+currentDateString += currentDate.getDate();
+
+
+
+var months = [
+
+'January',
+
+'February',
+
+'March',
+
+'April',
+
+'May',
+
+'June',
+
+'July',
+
+'August',
+
+'September',
+
+'October',
+
+'November',
+
+'December'
+
+];
+
+
+
+var monthNumber = currentDate.getMonth();
+
+
+
+var month = months[monthNumber];
+
+
+
+currentDateString += ' ' + month;
+
+
+
+currentDateString += ' ' + currentDate.getFullYear();
+
+
+
+document.getElementById('currentDate').innerHTML = currentDateString;
