@@ -1,5 +1,6 @@
 /*---------- BODY   ---------- */
 
+
 /*---------- HEADER   ---------- */
 
 header {
@@ -95,10 +96,6 @@ h2 {
 }
 
 .about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 500px;
     padding: 25px;
     border: 1px solid black;
     margin: 50px;
@@ -115,6 +112,22 @@ a.wikipedia:visited {
     width: 25%;
     position: relative;
     left: 400px;
+}
+
+/* CONTACT INFORMATION */
+
+.contactinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;;
+    max-width: 1000px;
+    padding: 25px;
+    border: 1px solid black;
+    margin: 50px;
+    font-family: 'Source Sans Pro', 'sans-serif';
+    background: #49726E;
+    color: white;
+    text-align: center;
 }
 
 /*---------- SECTIONS   ---------- */
