@@ -1,0 +1,32 @@
+@media only screen and (min-width: 700px) {
+
+/*---------- BODY   ---------- */
+
+/*---------- HEADER   ---------- */
+
+/*---------- NAV  ---------- */
+
+nav {
+	margin: 0 auto;
+    background-color: #2A4359;
+    font-family: 'Source Sans Pro', 'sans-serif';
+}
+
+/*---------- MAIN  ---------- */
+
+/*---------- SECTIONS   ---------- */
+
+/*---------- ARTICLES   ---------- */
+
+/*---------- FOOTER  ---------- */
+
+footer {
+
+    background-color: #2A4359;
+    font-family: 'Source Sans Pro', 'sans-serif';
+}
+
+
+/*---------- ETC  ---------- */
+
+}
