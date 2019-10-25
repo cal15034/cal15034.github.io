@@ -16,7 +16,7 @@
 <body>
     <header>
         <img src="images/newLogo.png" alt="Petrichor Logo" id="headerLogo">
-        <h1>For Rain Lovers</h1>
+        <h1 class="motto">For Rain Lovers</h1>
     </header>
 
 
@@ -35,8 +35,8 @@
     <h2 id="preston">PRESTON, IDAHO</h2>
     <figure>
         <img src="images/preston-small.jpg" alt=""
-        srcset="images/preston-large.jpg 1300w,
-                images/preston-medium.jpg 800w,
+        srcset="images/preston-large.jpg 1400w,
+                images/preston-medium.jpg 1000w,
                 images/preston-small.jpg 400w">
     </figure>
 
@@ -49,12 +49,12 @@
                             <span>Current Temp: </span>
                             <span id="currentTemp"></span>
                         </div>
-                        <div id="windSpeed">
+                        <div>
                             <span>Wind Speed: </span>
                             <span id="windSpeed"></span>
                         </div>
-                        <div id="windChill">
-                            <span>Wind Chill: </span>
+                        <div>
+                            <span>Windchill: </span>
                             <span id="windChill"></span>
                         </div>
                     </section>
@@ -105,18 +105,23 @@
         </section>
         <section class="about">
             <h2>ABOUT PRESTON</h2>
+            <div  class="aboutcontent">
             <p>Preston is a city in Franklin County, Idaho, United States. The population was 5,204 at the 2010
                 census.[4] The city is the county seat of Franklin County.[5] It is part of the Logan, Utah-Idaho
                 Metropolitan Statistical Area. For more... <a href="https://en.wikipedia.org/wiki/Preston,_Idaho"
                     class="wikipedia">Wikipedia Page</a></p>
             <img src="images/rural.jpg" alt="Rural Image" class="rural">
+        </div>
         </section>
         <section class="contactinfo">
             <h2>CONTACT INFORMATION</h2>
-            <p>petrichor.weather@petrichor.com</p>
+            <div class="map">
+            <p>Email: petrichor.weather@petrichor.com</p>
+            <p>Social Media: @Petrichor.Weather</p>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.72628277333!2d-111.91534437001668!3d42.09980531171999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1571511817213!5m2!1sen!2sus"
                 width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
         </section>
     </main>
 
