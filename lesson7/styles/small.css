@@ -239,6 +239,10 @@ nav {
     iframe, .fivedayforecast{
         display: none;
     }
+
+    figcaption {
+        display: none;
+    }
 }
 
 #gallery {
@@ -250,7 +254,3 @@ nav {
     border: 1px solid black;
 }
 
-figcaption {
-    font-family: 'Lora', 'Serif';
-    font-size: 18px;
-}

@@ -140,4 +140,13 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    @media (max-width: 1000px) {
+        iframe, .fivedayforecast{
+            display: none;
+        }
+    
+        figcaption {
+            display: none;
+        }
+    }
 }
