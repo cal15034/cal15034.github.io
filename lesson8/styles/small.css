@@ -258,5 +258,41 @@ nav {
 
 form {
     max-width: 500px;
-    align-items: center;
+margin: 0 auto;
+}
+
+label {
+    display: inline-block;
+    min-width: 120px;
+}
+
+form div {
+margin-top: 2px;
+padding: 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.nomargin {
+    margin: 0;
+}
+
+.align-top {
+    vertical-align: top;
+}
+
+body {
+    font-family: 'Source Sans Pro', 'sans-serif';
+}
+
+.thanks {
+    font-size: 50px;
+    text-align: center;
+}
+
+.resetbutton {
+    background-color: #990000;
+    color: white;
 }
