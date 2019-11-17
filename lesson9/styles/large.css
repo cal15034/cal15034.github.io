@@ -4,6 +4,11 @@
 
     /*---------- BODY   ---------- */
 
+    .grid {
+        display: grid;
+        grid-column: 1fr 1fr 1fr;
+    }
+
     /*---------- HEADER   ---------- */
     header {
         display: flex;

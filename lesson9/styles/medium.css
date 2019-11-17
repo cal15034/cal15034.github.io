@@ -1,8 +1,13 @@
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 32.5em) {
 
     @import url('https://fonts.googleapis.com/css?family=Lora|Source+Sans+Pro&display=swap');
 
     /*---------- BODY   ---------- */
+
+    .grid {
+        display: grid;
+        grid-column: 1fr 1fr;
+    }
 
     /*---------- HEADER   ---------- */
 
@@ -150,3 +155,4 @@
         }
     }
 }
+
