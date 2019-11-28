@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script type="text/javascript" src="scripts/hamburger.js"></script>
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/newLogo.png" alt="Petrichor Logo" id="headerLogo">
+        <h1 class="motto">For Rain Lovers</h1>
+    </header>
+
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="preston.html">PRESTON</a></li>
+            <li><a href="sodasprings.html">SODA SPRINGS</a></li>
+            <li><a href="fishhaven.html">FISH HAVEN</a></li>
+            <li><a href="stormcenter.html">STORM CENTER</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="tempGrid" class="homeinfo">
+            <article id="mainArticle1">
+                <h1>Fish Haven</h1>
+                <div>
+                    <h4 id="fishMotto"></h4>
+                </div>
+                <p>Year Founded: <span id="fishFounded"></span></p>
+                <p>Population: <span id="fishPopulation"></span></p>
+                <p>Annual Rain: <span id="fishAnnualRain"></span></p>
+                <figure>
+                    <img src="images/fishhaven.jpg" class="homeimages">
+                </figure>
+            </article>
+            <article id="mainArticle2">
+                <h1>Preston</h1>
+                <div>
+                    <h4 id="prestonMotto"></h4>
+                </div>
+                <p>Year Founded: <span id="prestonFounded"></span></p>
+                <p>Population: <span id="prestonPopulation"></span></p>
+                <p>Annual Rain: <span id="prestonAnnualRain"></span></p>
+                <figure>
+                    <img src="images/prestonhero.jpg" class="homeimages">
+                </figure>
+            </article>
+            <article id="mainArticle3">
+                <h1>Soda Springs</h1>
+                <div>
+                    <h4 id="sodaMotto"></h4>
+                </div>
+                <p>Year Founded: <span id="sodaFounded"></span></p>
+                <p>Population: <span id="sodaPopulation"></span></p>
+                <p>Annual Rain: <span id="sodaAnnualRain"></span></p>
+                <figure>
+                    <img src="images/sodasprings.jpg" class="homeimages">
+                </figure>
+            </article>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; <span id="currentDate"></span> Ian Mesia Caloobanan | Petrichor Weather Site</p>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/towndata.js"></script>
+    <script type="text/javascript" src="scripts/date.js"></script>
+</body>
+
+</html>
