@@ -305,4 +305,9 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
+    padding: 50px;
+}
+
+article {
+    justify-content: center;
 }
