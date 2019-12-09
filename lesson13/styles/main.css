@@ -1,0 +1,247 @@
+/* LEGEND KEY:
+
+----- : Semantic Parts of pages
+##### : Page Title
+===== : Sections or Divs (Specific points in a page)
+(Normal Comments) : Other specifics
+
+*/
+
+/*---------- H E A D E R ---------- */
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    width: 5%;
+    padding: 1%;
+}
+
+/*---------- N A V I G A T I O N ----------*/
+
+/* Menu List Start */
+nav {
+    margin: 0 auto;
+    background-color: #3E4035;
+    font-family: 'Source Sans Pro', 'sans-serif';
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: #fff;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #000;
+    background-color: #F2EBD5;
+    font-weight: 700;
+}
+
+.responsive li {
+    display: block;
+}
+
+/* Media Query for medium + screens */
+@media only screen and (min-width: 32.5em) {
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li a {
+        color: white;
+    }
+}
+
+/* Menu List End */
+
+/*---------- M A I N ----------*/
+
+/* ########## HOMEPAGE Start ########## */
+
+/* ===== Hero Image Start ===== */
+
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Text styles */
+    text-align: center;
+    color: white; /* ADD THIS LINE */
+
+    /* Background styles */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1530643343472-a19bbce698e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=2125&q=80);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    /* Text styles */
+    font-size: 5em;
+    font-family: 'Source Sans Pro', 'sans-serif';
+
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.hero h3 {
+    font-family: 'Libre Baskerville', 'serif';
+}
+
+.hero .btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Text styles */
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+
+    /* Border styles */
+    border: 3px solid white;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+/* ===== Hero Image End ===== */
+
+/* ===== Specialized Service Section Start ===== */
+
+.specialized-services {
+    padding: 2.5em;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Text Styles */
+.specialized-services h1 {
+    font-family: 'Libre Baskerville', 'serif';
+}
+
+.specialized-services img {
+    width: 30%;
+}
+
+/* ===== Specialized Service Section End ===== */
+
+/* ===== Free Amenities Start ===== */
+
+.amenity-div {
+    background: rgb(39, 37, 28);
+}
+
+
+.amenity-div h1 {
+    font-family: 'Libre Baskerville', 'serif';
+    text-align: center;
+    padding: 1em;
+    color: white;
+}
+
+.free-amenities {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-size: x-large;
+}
+
+figcaption h3 {
+    margin: 0 auto;
+}
+
+.free-amenities figcaption, p {
+    color: white;
+}
+
+figure img {
+    width: 50%;
+}
+
+/* ===== Free Amenities End ===== */
+
+section {
+    font-family: 'Source Sans Pro', 'sans-serif';
+}
+
+/* ########## HOMEPAGE End ########## */
+
+/*---------- F O O T E R ----------*/
+
+/*-------------------- MEDIUM MEDIA QUERY -------------------- */
+
+@media only screen and (min-width: 700px) {
+
+    /*---------- H E A D E R ---------- */
+
+    /*---------- N A V I G A T I O N ----------*/
+
+    /*---------- M A I N ----------*/
+
+    /*---------- F O O T E R ----------*/
+}
+
+/*-------------------- LARGE MEDIA QUERY -------------------- */
+
+@media only screen and (min-width: 60em) {
+
+    /*---------- H E A D E R ---------- */
+
+    /*---------- N A V I G A T I O N ----------*/
+
+    /*---------- M A I N ----------*/
+
+    /*---------- F O O T E R ----------*/
+}
