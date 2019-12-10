@@ -7,6 +7,12 @@
 
 */
 
+/*-------------------- SMALL / MAIN MEDIA QUERY -------------------- */
+
+body {
+    overflow-x: hidden;
+}
+
 /*---------- H E A D E R ---------- */
 
 header {
@@ -165,8 +171,17 @@ nav {
     font-family: 'Libre Baskerville', 'serif';
 }
 
+.specialized-services p {
+    color: black;
+    font-size: x-large;
+}
+
+.services-text {
+    padding: 5em;
+}
+
 .specialized-services img {
-    width: 30%;
+    width: 40%;
 }
 
 /* ===== Specialized Service Section End ===== */
@@ -212,6 +227,30 @@ figure img {
 
 /* ===== Free Amenities End ===== */
 
+/* ===== Temple Availability Start ===== */
+
+.temple-availability {
+    display: flex;
+    justify-content: center;
+    font-family: 'Libre Baskerville', 'serif';
+}
+
+.temple-availability img {
+    padding: 1em;
+}
+
+.temple-availability:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.temple-availability:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* ===== Temple Availability End ===== */
+
 section {
     font-family: 'Source Sans Pro', 'sans-serif';
 }
@@ -219,6 +258,12 @@ section {
 /* ########## HOMEPAGE End ########## */
 
 /*---------- F O O T E R ----------*/
+
+footer {
+    background-color: #798C89;
+    padding: 10px;
+    text-align: center;
+}
 
 /*-------------------- MEDIUM MEDIA QUERY -------------------- */
 
