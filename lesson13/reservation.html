@@ -26,9 +26,158 @@
         </ul>
     </nav>
 
+    <main>
+
+        <img src="images/reservationbanner.jpg" alt="Reservation Banner">
+
+        <form action="thanks.html" method="GET">
+            <h3 class="reservationh3">
+                Personal Information:
+            </h3>
+
+            <div>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName">
+            </div>
+            <div>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="user@email.com">
+            </div>
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address">
+            </div>
+            <div>
+                <label for="zipCode">Zip Code:</label>
+                <input type="number" id="zipCode" name="zipCode" required>
+            </div>
+
+            <h3 class="reservationh3">
+                Booking Preferences:
+            </h3>
+
+            <div>
+                <label for="hotelDate">Date of Booking:</label>
+                <input type="date" id="hotelDate" name="hotelDate">
+            </div>
+            <div>
+                <label for="hotelType">Choose Hotel:</label>
+                <input list="hotelTypes">
+                <datalist id="hotelTypes">
+                    <option value="Rexburg, Idaho">
+                    <option value="Portland, Oregon">
+                    <option value="Houston, Texas">
+                    <option value="Salt Lake City, Utah">
+                    <option value="Mesa, Arizona (Opening Pre-Booking)">
+                    <option value="Hong Kong, China(Opening Pre-Booking)">
+                    <option value="Rome, Italy(Opening Pre-Booking)">
+                </datalist>
+            </div>
+            <div>
+                <label for="suiteType">Choose Suite Type:</label>
+                <input list="suiteTypes">
+                <datalist id="suiteTypes">
+                    <option value="Single Suite">
+                    <option value="Double Suite">
+                    <option value="Triple Suite">
+                    <option value="Quad Suite">
+                    <option value="Queen Suite">
+                    <option value="King Suite">
+                    <option value="Master Suite">
+                </datalist>
+            </div>
+            <div>
+                <label for="numberOfRooms">Number of Rooms:</label>
+                <input type="range" id="rating" name="numberOfRooms" value="3" min="1" max="5" class="slider" step="1"
+                    list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="ratingvalue">3</span>
+            </div>
+
+            <!--
+            <h2>Storm Information:</h2>
+
+            <div>
+                <label for="stormDate">Storm Date:</label>
+                <input type="date" id="stormDate" name="stormDate">
+            </div>
+            <div>
+                <label for="stormType">Storm Type</label>
+                <input list="stormTypes">
+                <datalist id="stormTypes">
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">
+                </datalist>
+            </div>
+            <div>
+                <label for="stormSeverity">Storm Severity:</label>
+                <input type="range" id="rating" name="stormSeverity" value="5" min="1" max="10" class="slider" step="1"
+                    list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="ratingvalue">5</span>
+            </div>
+
+            <div>
+
+            </div>
+            <div>
+                <label for="stormRegion">Storm Region:</label>
+                <select name="stormRegion" id="stormRegion">
+                    <option value="Select Region" selected disabled>Select Region</option>
+                    <option value="Fish Haven">Fish Haven</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Sugar City">Sugar City</option>
+                </select>
+            </div>
+
+            
+            <div class="flex">
+                <span>Are you in danger?</span>
+                <div class="nomargin">
+                    <div>
+                        <input type="radio" value="Yes" name="danger">
+                        <label for="yes">Yes</label>
+                    </div>
+                    <div>
+                        <input type="radio" value="No" name="danger">
+                        <label for="no">No</label>
+                    </div>
+                    <div>
+                        <input type="radio" value="Maybe" name="danger">
+                        <label for="maybe">Maybe</label>
+                    </div>
+                </div>
+            </div>
+        -->
+
+            <div>
+                <label for="comments" class="align-top">Accomodations:</label>
+                <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+            </div>
+
+            <div>
+                <input type="submit" value="Submit" class="submitbutton">
+                <input type="reset" value="Reset" class="resetbutton">
+            </div>
+        </form>
+    </main>
+
+
     <footer>
         <p>All Rights Reserved. Temple Inn &amp; Suites &copy;</p>
     </footer>
+
+    <script src="scripts/range.js"></script>
+
 </body>
 
 </html>

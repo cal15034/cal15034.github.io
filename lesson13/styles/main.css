@@ -107,10 +107,11 @@ nav {
 
     /* Text styles */
     text-align: center;
-    color: white; /* ADD THIS LINE */
+    color: white;
+    /* ADD THIS LINE */
 
     /* Background styles */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1530643343472-a19bbce698e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=2125&q=80);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1530643343472-a19bbce698e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=2125&q=80);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -217,7 +218,8 @@ figcaption h3 {
     margin: 0 auto;
 }
 
-.free-amenities figcaption, p {
+.free-amenities figcaption,
+p {
     color: white;
 }
 
@@ -232,7 +234,7 @@ figure img {
 .temple-availability {
     display: flex;
     justify-content: center;
-    font-family: 'Libre Baskerville', 'serif';
+    font-family: 'Source Sans Pro', 'sans-serif';
 }
 
 .temple-availability img {
@@ -251,11 +253,147 @@ figure img {
 
 /* ===== Temple Availability End ===== */
 
+/* ===== Homepage Contact Start ===== */
+
+.homepagecontact {
+    padding: 2em;
+    background-color: #F2EBD5;
+}
+
+.homepagecontact p {
+    color: black;
+    text-align: center;
+}
+
+.homepagecontact h3 {
+    text-align: center;
+}
+
+/* Homepage Contact Button */
+.contact-btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Text styles */
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+
+    /* Border styles */
+    border: 3px solid black;
+}
+
+.contact-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+/* ===== Homepage Contact End ===== */
+
 section {
     font-family: 'Source Sans Pro', 'sans-serif';
 }
 
 /* ########## HOMEPAGE End ########## */
+
+
+
+
+
+
+/* ########## RESERVATION Start ########## */
+
+.reservationh1 {
+    text-align: center;
+    font-family: 'Libre Baskerville', 'serif';
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: inline-block;
+    min-width: 120px;
+}
+
+form div {
+    margin-top: 2px;
+    padding: 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.nomargin {
+    margin: 0;
+}
+
+.align-top {
+    vertical-align: top;
+}
+
+body {
+    font-family: 'Source Sans Pro', 'sans-serif';
+}
+
+.thanks {
+    font-size: 50px;
+    text-align: center;
+}
+
+.submitbutton {
+    border: none;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.resetbutton {
+    background-color: #990000;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+/* ########## RESERVATION End ########## */
+
+
+
+
+
+
+/* ########## THANK YOU PAGE Start ########## */
+
+.thankyoupage {
+    text-align: center;
+}
+
+/* ########## THANK YOU PAGE End ########## */
+
+
+
+
+
+
+
+
 
 /*---------- F O O T E R ----------*/
 
@@ -263,6 +401,8 @@ footer {
     background-color: #798C89;
     padding: 10px;
     text-align: center;
+    font-family: 'Libre Baskerville', 'serif';
+    font-size: small;
 }
 
 /*-------------------- MEDIUM MEDIA QUERY -------------------- */
