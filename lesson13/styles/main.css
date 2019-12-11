@@ -398,6 +398,97 @@ body {
 
 
 
+/* ########## SERVICES Start ########## */
+
+/*
+.services-div {
+    background: rgb(39, 37, 28);
+} */
+
+.services-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.services-figure {
+    text-align: center;
+}
+
+.services-figcaption {
+    font-size: x-large;
+}
+
+.services-figcaption h3 {
+    padding-top: 1em;
+    font-size: xx-large;
+    font-family: 'Libre Baskerville', 'serif';
+}
+
+.services-paragraph {
+    color: black;
+    font-size: large;
+}
+
+/* .services-section figcaption,
+p {
+    color: white;
+}
+*/
+
+.services-image {
+    width: 75%;
+    box-shadow: 15px 15px 10px 0px rgba(0,0,0,0.3);
+}
+
+/* Additional Services */
+.additional-services h1 {
+    text-align: center;
+    font-family: 'Libre Baskerville', 'serif';
+}
+
+.additional-services img {
+    width: 50%;
+    box-shadow: 15px 15px 10px 0px rgba(0,0,0,0.3);
+}
+
+.additional-services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Additional Services Button */
+.additional-services-btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Text styles */
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+
+    /* Border styles */
+    border: 3px solid black;
+}
+
+.additional-services-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+/* ########## SERVICES End ########## */
+
+
+
+
+
 
 
 
