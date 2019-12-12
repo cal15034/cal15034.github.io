@@ -178,7 +178,9 @@ nav {
 .specialized-services {
     padding: 2.5em;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 /* Text Styles */
@@ -192,6 +194,7 @@ nav {
     font-size: x-large;
     font-family: 'Source Sans Pro', 'sans-serif';
     font-weight: 300;
+    text-align: center;
 }
 
 .services-text {
@@ -199,7 +202,7 @@ nav {
 }
 
 .specialized-services img {
-    width: 40%;
+    width: 50%;
 }
 
 /* ===== Specialized Service Section End ===== */
@@ -221,7 +224,7 @@ nav {
 
 .free-amenities {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 figure {
@@ -257,10 +260,12 @@ figure img {
     justify-content: center;
     font-family: 'Roboto Slab', 'serif';
     font-weight: 500;
+    flex-wrap: wrap;
 }
 
 .temple-availability img {
     padding: 1em;
+    width: 90%;
 }
 
 .temple-availability:visited {
@@ -342,13 +347,15 @@ figure img {
 
 .temple-image {
     width: 100%;
-    box-shadow: 15px 15px 10px 0px rgba(0,0,0,0.1);
+    box-shadow: 15px 15px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
 .temple-main {
     display: flex;
     justify-content: space-evenly;
     padding: 2em;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .temple-name {
@@ -358,7 +365,7 @@ figure img {
 
 .temple-info {
     font-family: 'Source Sans Pro', 'sans-serif';
-    padding: 5em;
+    padding: 2em;
     color: black;
 }
 
@@ -484,7 +491,7 @@ form div {
 
 .services-section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 .services-figure {
@@ -534,7 +541,7 @@ p {
 
 .additional-services {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 /* Additional Services Button */
@@ -659,9 +666,14 @@ footer {
     font-family: 'Roboto Slab', 'serif';
 }
 
+
+
+
+
+
 /*-------------------- MEDIUM MEDIA QUERY -------------------- */
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 35.5em) {
 
     /*---------- H E A D E R ---------- */
 
@@ -669,8 +681,45 @@ footer {
 
     /*---------- M A I N ----------*/
 
+
+
+
+
+
+    /* ########## HOMEPAGE Start ########## */
+
+    /* ===== Specialized Service Section Start ===== */
+
+    .specialized-services h1 {
+        text-align: center;
+    }
+
+    /* ===== Specialized Service Section End ===== */
+
+    /* ===== Free Amenities Start ===== */
+
+    .free-amenities {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* ===== Free Amenities End ===== */
+
+    /* ########## HOMEPAGE End ########## */
+
+
+
+
+
+
+
     /*---------- F O O T E R ----------*/
 }
+
+
+
+
+
 
 /*-------------------- LARGE MEDIA QUERY -------------------- */
 
@@ -681,6 +730,52 @@ footer {
     /*---------- N A V I G A T I O N ----------*/
 
     /*---------- M A I N ----------*/
+
+
+
+
+
+    /* ########## HOMEPAGE Start ########## */
+
+    /* ===== Specialized Service Section Start ===== */
+
+    /* ===== Specialized Service Section End ===== */
+
+    /* ===== Free Amenities Start ===== */
+
+    .free-amenities {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    /* ===== Free Amenities End ===== */
+
+
+
+
+
+
+
+    /* ########## HOMEPAGE End ########## */
+
+
+
+
+
+    /* ########## SERVICES Start ########## */
+
+    .services-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .additional-services {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* ########## SERVICES End ########## */
+
 
     /*---------- F O O T E R ----------*/
 }
