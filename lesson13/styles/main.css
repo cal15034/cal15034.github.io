@@ -9,6 +9,8 @@
 
 /*-------------------- SMALL / MAIN MEDIA QUERY -------------------- */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,500,600,700|Source+Sans+Pro:300,400,600&display=swap');
+
 body {
     overflow-x: hidden;
 }
@@ -38,7 +40,8 @@ header img {
 nav {
     margin: 0 auto;
     background-color: #3E4035;
-    font-family: 'Source Sans Pro', 'sans-serif';
+    font-family: 'Source Sans Pro', 'serif';
+    font-weight: 400;
 }
 
 .navigation {
@@ -128,7 +131,8 @@ nav {
 .hero h1 {
     /* Text styles */
     font-size: 5em;
-    font-family: 'Source Sans Pro', 'sans-serif';
+    font-family: 'Roboto Slab', 'serif';
+    font-weight: 400;
 
     /* Margins */
     margin-top: 0;
@@ -136,7 +140,8 @@ nav {
 }
 
 .hero h3 {
-    font-family: 'Libre Baskerville', 'serif';
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-weight: 600;
 }
 
 .hero .btn {
@@ -154,6 +159,8 @@ nav {
     color: white;
     text-decoration: none;
     font-size: 1.5em;
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-weight: 600;
 
     /* Border styles */
     border: 3px solid white;
@@ -176,12 +183,15 @@ nav {
 
 /* Text Styles */
 .specialized-services h1 {
-    font-family: 'Libre Baskerville', 'serif';
+    font-family: 'Roboto Slab', 'serif';
+    font-weight: 700;
 }
 
 .specialized-services p {
     color: black;
     font-size: x-large;
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-weight: 300;
 }
 
 .services-text {
@@ -202,7 +212,8 @@ nav {
 
 
 .amenity-div h1 {
-    font-family: 'Libre Baskerville', 'serif';
+    font-family: 'Roboto Slab', 'serif';
+    font-weight: 400;
     text-align: center;
     padding: 1em;
     color: white;
@@ -215,10 +226,13 @@ nav {
 
 figure {
     text-align: center;
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-weight: 300;
 }
 
 figcaption {
     font-size: x-large;
+    font-weight: 300;
 }
 
 figcaption h3 {
@@ -241,7 +255,8 @@ figure img {
 .temple-availability {
     display: flex;
     justify-content: center;
-    font-family: 'Source Sans Pro', 'sans-serif';
+    font-family: 'Roboto Slab', 'serif';
+    font-weight: 500;
 }
 
 .temple-availability img {
@@ -265,11 +280,13 @@ figure img {
 .homepagecontact {
     padding: 2em;
     background-color: #F2EBD5;
+    font-family: 'Source Sans Pro', 'sans-serif';
 }
 
 .homepagecontact p {
     color: black;
     text-align: center;
+    font-family: 'Source Sans Pro', 'sans-serif';
 }
 
 .homepagecontact h3 {
@@ -293,6 +310,8 @@ figure img {
     text-decoration: none;
     font-size: 1.5em;
     text-align: center;
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-weight: 700;
 
     /* Border styles */
     border: 3px solid black;
@@ -305,10 +324,6 @@ figure img {
 
 /* ===== Homepage Contact End ===== */
 
-section {
-    font-family: 'Source Sans Pro', 'sans-serif';
-}
-
 /* ########## HOMEPAGE End ########## */
 
 
@@ -318,14 +333,18 @@ section {
 
 /* ########## RESERVATION Start ########## */
 
-.reservationh1 {
-    text-align: center;
-    font-family: 'Libre Baskerville', 'serif';
+.reservationh3 {
+    font-family: 'Source Sans Pro', 'serif';
+    font-weight: 700;
 }
 
 form {
     max-width: 500px;
     margin: 0 auto;
+    border: whitesmoke solid 2px;
+    border-radius: 3px;
+    padding: 3em;
+    box-shadow: 15px 15px 10px 0px rgba(0,0,0,0.3);
 }
 
 label {
@@ -350,8 +369,10 @@ form div {
     vertical-align: top;
 }
 
-body {
+.reservationform {
     font-family: 'Source Sans Pro', 'sans-serif';
+    font-weight: 400;
+    padding: 3em;
 }
 
 .thanks {
@@ -366,6 +387,8 @@ body {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-weight: 400;
 }
 
 .resetbutton {
@@ -376,6 +399,8 @@ body {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-weight: 700;
 }
 
 
@@ -390,6 +415,9 @@ body {
 
 .thankyoupage {
     text-align: center;
+    font-family: 'Robot Slab', 'serif';
+    font-weight: 400;
+    padding: 5em;
 }
 
 /* ########## THANK YOU PAGE End ########## */
@@ -421,11 +449,14 @@ body {
 .services-figcaption h3 {
     padding-top: 1em;
     font-size: xx-large;
-    font-family: 'Libre Baskerville', 'serif';
+    font-family: 'Robot Slab', 'serif';
+    font-weight: 500;
 }
 
 .services-paragraph {
     color: black;
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-weight: 300;
     font-size: large;
 }
 
@@ -443,7 +474,8 @@ p {
 /* Additional Services */
 .additional-services h1 {
     text-align: center;
-    font-family: 'Libre Baskerville', 'serif';
+    font-family: 'Robot Slab', 'serif';
+    font-weight: 500;
 }
 
 .additional-services img {
@@ -473,6 +505,8 @@ p {
     text-decoration: none;
     font-size: 1.5em;
     text-align: center;
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-weight: 600;
 
     /* Border styles */
     border: 3px solid black;
@@ -489,6 +523,39 @@ p {
 
 
 
+/* ########## CONTACT Start ########## */
+
+.contactus {
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-weight: 400;
+    padding: 3em;
+}
+
+.contactush1 {
+    font-family: 'Roboto Slab', 'serif';
+    font-weight: 400;
+    text-align: center;
+}
+
+.contactusform {
+    border: whitesmoke solid 2px;
+    border-radius: 3px;
+    padding: 3em;
+    box-shadow: 15px 15px 10px 0px rgba(0,0,0,0.3);
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+/* ########## CONTACT Start ########## */
+
+
+
+
+
 
 
 
@@ -499,8 +566,7 @@ footer {
     background-color: #798C89;
     padding: 10px;
     text-align: center;
-    font-family: 'Libre Baskerville', 'serif';
-    font-size: small;
+    font-family: 'Roboto Slab', 'serif';
 }
 
 /*-------------------- MEDIUM MEDIA QUERY -------------------- */
