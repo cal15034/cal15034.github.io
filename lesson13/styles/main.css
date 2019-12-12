@@ -331,6 +331,55 @@ figure img {
 
 
 
+/* ########## TEMPLE Start ########## */
+
+/*
+.temple-figure-image {
+    width: 100%;
+    box-shadow: 15px 15px 10px 0px rgba(0,0,0,0.1);
+}
+*/
+
+.temple-image {
+    width: 100%;
+    box-shadow: 15px 15px 10px 0px rgba(0,0,0,0.1);
+}
+
+.temple-main {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em;
+}
+
+.temple-name {
+    font-family: 'Roboto Slab', 'serif';
+    font-weight: 300;
+}
+
+.temple-info {
+    font-family: 'Source Sans Pro', 'sans-serif';
+    padding: 5em;
+    color: black;
+}
+
+.temple-info p {
+    color: black;
+    font-family: 'Source Sans Pro', 'sans-serif';
+}
+
+.temple-info li {
+    color: black;
+    font-family: 'Source Sans Pro', 'sans-serif';
+    list-style: none;
+}
+
+/* ########## TEMPLE End ########## */
+
+
+
+
+
+
 /* ########## RESERVATION Start ########## */
 
 .reservationh3 {
@@ -344,7 +393,7 @@ form {
     border: whitesmoke solid 2px;
     border-radius: 3px;
     padding: 3em;
-    box-shadow: 15px 15px 10px 0px rgba(0,0,0,0.3);
+    box-shadow: 15px 15px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 label {
@@ -468,7 +517,7 @@ p {
 
 .services-image {
     width: 75%;
-    box-shadow: 15px 15px 10px 0px rgba(0,0,0,0.3);
+    box-shadow: 15px 15px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 /* Additional Services */
@@ -480,7 +529,7 @@ p {
 
 .additional-services img {
     width: 50%;
-    box-shadow: 15px 15px 10px 0px rgba(0,0,0,0.3);
+    box-shadow: 15px 15px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 .additional-services {
@@ -541,7 +590,7 @@ p {
     border: whitesmoke solid 2px;
     border-radius: 3px;
     padding: 3em;
-    box-shadow: 15px 15px 10px 0px rgba(0,0,0,0.3);
+    box-shadow: 15px 15px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 .map {
@@ -563,15 +612,36 @@ p {
     /* box-shadow: 15px 15px 10px 0px rgba(0,0,0,0.1); */
 }
 
+/* ########## WEDDING End ########## */
 
 
 
 
 
 
+/* ########## TEMPLE MISSIONARY Start ########## */
 
-/* ########## Wedding End ########## */
+.missionarycontactbox {
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-weight: 400;
+    padding: 3em;
+}
 
+.missionarycontact {
+    font-family: 'Roboto Slab', 'serif';
+    font-weight: 400;
+    text-align: center;
+}
+
+.missionarycontactform {
+    border: whitesmoke solid 2px;
+    border-radius: 3px;
+    padding: 3em;
+    box-shadow: 15px 15px 10px 0px rgba(0, 0, 0, 0.0);
+}
+
+
+/* ########## TEMPLE MISSIONARY End ########## */
 
 
 
