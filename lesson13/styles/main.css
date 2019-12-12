@@ -131,8 +131,8 @@ nav {
 .hero h1 {
     /* Text styles */
     font-size: 5em;
-    font-family: 'Roboto Slab', 'serif';
-    font-weight: 400;
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-weight: 700;
 
     /* Margins */
     margin-top: 0;
@@ -140,8 +140,8 @@ nav {
 }
 
 .hero h3 {
-    font-family: 'Source Sans Pro', 'sans-serif';
-    font-weight: 600;
+    font-family: 'Robot Slab', 'serif';
+    font-weight: 300;
 }
 
 .hero .btn {
@@ -550,7 +550,27 @@ p {
     padding: 1em;
 }
 
-/* ########## CONTACT Start ########## */
+/* ########## CONTACT End ########## */
+
+
+
+
+
+/* ########## WEDDING Start ########## */
+
+.wedding-figure-image {
+    width: 50%;
+    /* box-shadow: 15px 15px 10px 0px rgba(0,0,0,0.1); */
+}
+
+
+
+
+
+
+
+
+/* ########## Wedding End ########## */
 
 
 
